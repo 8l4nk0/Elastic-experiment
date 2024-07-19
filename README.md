@@ -41,7 +41,7 @@ Questo ci permetterà di rappresentare graficamente i log. Per una semplice visu
 Io ho scelto Area e impostato Count sull'asse verticale e Timestamp sull'asse orizzontale.<br><br>
 
 
-<h1>Fase 5)<br>
+<h1>Fase 5)</h1><br>
 Infine andiamo nel menù in alto a sinistra (le tre linee piccole) su Security-> Alerts-> Manage Rules-> Create New Rule->Custom Query.<br>
 Qui costruiamo la regola per il nostro SIEM per eventi particolari.<br>
 Per esempio impostando la query come:<br><br>
