@@ -46,7 +46,7 @@ Infine andiamo nel menù in alto a sinistra (le tre linee piccole) su Security->
 Qui costruiamo la regola per il nostro SIEM per eventi particolari.<br>
 Per esempio impostando la query come:<br><br>
 
-process.args:"nmap"<br><br>
+<i>process.args:"nmap"</i><br><br>
 
 stiamo indicando che il SIEM deve creare un alert per gli scan con Nmap.<br>
 Andando avanti, nella sezione About Rule le diamo un nome e ne descriviamo lo scopo.<br>
