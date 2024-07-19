@@ -1,4 +1,4 @@
-<h1>Elastic-experiment</h1><br><br>
+<h1>ElasticSIEM-experiment</h1><br><br>
 
 Questo piccolo progetto prevede di collegare il SIEM Elastic ad una macchina virtuale (VM) Kali Linux tramite Elastic Agent per registrarne gli eventi sottoforma di log e rappresentarli graficamente su una dashboard personalizzata dopo aver inserito la/e regola/e per filtrare i log che ci interessano.<br>
 
