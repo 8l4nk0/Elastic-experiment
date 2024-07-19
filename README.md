@@ -17,12 +17,12 @@ Clicca in basso Install Elastic Agent (questo per collegare Elastic alla VM Kali
 <h1>Fase 2)</h1><br>
 Cliccando su Install Elastic Agent, seleziona Linux e incolliamo questo comando nel terminale della VM:<br>
 --------------------------------------------------------------------------------------------------------<br>
-curl -L -O https://artifacts.elastic.co/downloads/beats/elastic-agent/elastic-agent-8.14.3-linux-x86_64.tar.gz<br>
+<i>curl -L -O https://artifacts.elastic.co/downloads/beats/elastic-agent/elastic-agent-8.14.3-linux-x86_64.tar.gz<br>
 tar xzvf elastic-agent-8.14.3-linux-x86_64.tar.gz<br>
 cd elastic-agent-8.14.3-linux-x86_64<br>
 sudo ./elastic-agent install --url=https://5630fedb9fa4401c803f73336462c375.fleet.westus2.azure.elastic-cloud.com:443 --enrollment-<br>token=***==<br><br><br>
 
-NOTA: qui il token lo ottente direttamente quando copiate i comandi suggeriti dal procedimento scritto sul Elastic<br>
+NOTA: qui il token lo ottente direttamente quando copiate i comandi suggeriti dal procedimento scritto sul Elastic</i><br>
 --------------------------------------------------------------------------------------------------------<br>
 In questo modo abbiamo collegato il SIEM Elastic alla nostra VM tramite l'agent "Elastic Agent".<br><br>
 
